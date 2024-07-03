@@ -1,0 +1,41 @@
+#div1{
+    height: "100vh"; width: "100%"; 
+    background-image:linear-gradient(rgb(140, 217, 245),rgb(154, 242, 154));
+}
+#opgend1{
+    display: 'block';
+    width: 700; 
+     padding: 30
+}
+#card1{
+    display: inline;
+    justify-content: center;
+}
+/* table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th,
+  td {
+    border: 1px solid #ffffff;
+    text-align: left;
+    padding: 8px;
+    font-size: 32px;
+  }
+  
+  
+  
+  td {
+    background-color: rgb(205, 235, 253);
+  }
+   */
+  #r1  table {
+    margin: 10px;
+    width:100%;
+    border: 1px solid lightgray;
+    box-shadow: 0px 4px 8px 0px black;
+    overflow: scroll;
+  }
+
+  

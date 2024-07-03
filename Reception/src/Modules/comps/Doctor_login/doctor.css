@@ -1,0 +1,53 @@
+body {
+  background-color: rgb(2, 49, 90);
+
+  margin: 0;
+  padding: 0;
+}
+.cards {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.card {
+  display: flex;
+  align-items: center;
+  margin: 20px 5px 5px 5px;
+  transition: 0.5s;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  width: 250px;
+  height: 350px;
+  background-color: white;
+  box-shadow: 0px 4px 8px 0px;
+}
+.card:hover {
+  margin-top: 10px;
+}
+#userDetails {
+  font-family: "Times New Roman", Times, serif;
+  text-align: right;
+}
+#userDetails button {
+  margin: 5px;
+  width: 80px;
+  height: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: large;
+  border-radius: 5px;
+  border: 2px solid lightgray;
+  color: white;
+  background-color: rgb(72, 72, 202);
+}
+#userDetails button:active {
+  border: 2px solid lightskyblue;
+  font-size: medium;
+}
+.btn {
+  width: 200px;
+}
+.btn:hover {
+  color: white;
+  text-decoration: none;
+}

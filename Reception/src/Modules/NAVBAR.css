@@ -1,0 +1,40 @@
+.nav{
+    box-shadow: 0px 2px 4px 0px black;
+  }
+  
+  .me-auto a{ 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: lightskyblue;
+    border-radius: 5px;
+    color: black;
+    margin: 5px;
+    transition: 0.5s;
+  }
+  .me-auto{
+    margin-left: 0%;
+  }
+
+  .me-auto a{
+    background-color: lightskyblue;
+    height: 30px;
+    width: 150px;
+    text-align: center;
+    padding: 3px;
+    box-shadow: 1px 2px 2px 0px;
+  }
+
+  .container  a.navbar-brand{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: white;
+  }
+  .me-auto a:hover{
+    opacity: 0.7;
+  }
+  
+  .App-logo{
+    height: 43px;
+    width: 100px;
+    background-color: transparent;
+    background-size: cover;
+  }

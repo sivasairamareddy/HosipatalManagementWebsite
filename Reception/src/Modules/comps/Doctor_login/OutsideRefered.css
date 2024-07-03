@@ -1,0 +1,80 @@
+.main {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.main #input {
+  transition: 0.35s;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid black;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  width: 150px;
+  font-size: 16px;
+  margin-top: 20px;
+  height: 50px;
+  padding: 5px 20px 5px 10px;
+}
+.main label {
+  background: white;
+  border-bottom: 2px solid black;
+  margin-top: 20px;
+  font-size: 15px;
+  padding: 11px 0px 0px 9px;
+}
+.main #input:focus {
+  width: 180px;
+  -webkit-transition: width 0.35s ease-in-out;
+  transition: width 0.35s ease-in-out;
+}
+
+.button {
+  float: right;
+  height: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: rgb(53, 94, 214);
+  color: white;
+  font-size: 15px;
+  border-radius: 3px;
+  margin-right: 10px;
+  border: 1px solid lightgray;
+}
+
+.main label:active {
+  color: red;
+}
+.main #icon {
+  margin: 0px 6px 0px 0px;
+}
+
+.form-group {
+  margin: 10px 0px 10px 0px;
+}
+
+.form-group input {
+  outline: none;
+  border-radius: 0px;
+  border: none;
+  border-bottom: 2px solid rgb(72, 71, 71);
+  width: 80%;
+}
+
+.form-control input:focus {
+  border: 2px solid blue;
+}
+
+.form-group textarea {
+  width: 80%;
+}
+form {
+  width: 100%;
+}
+
+@media (max-width: 700px) {
+  .main #input {
+    width: 80px;
+    background-color: aqua;
+  }
+}

@@ -1,0 +1,263 @@
+.HomeMain .cards{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    background-color: rgb(21, 158, 193);
+}
+.HomeMain .cards div{
+    opacity: 0.6;
+    transition: 0.5s;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:100px;
+    height: 400px;
+}
+
+.HomeMain #card1{
+    background-image: url('https://thumbs.dreamstime.com/b/doctors-hospital-corridor-nurse-pushing-gurney-stretcher-bed-male-senior-female-patient-32154012.jpg');
+    margin: 0px 10px 0px 10px;
+}
+.HomeMain #card2{
+    background-image: url('https://mcmscache.epapr.in/post_images/website_350/post_28872061/full.jpg');
+    margin: 20px 10px 0px 10px;
+}
+.HomeMain #card3{
+    background-image: url('https://www.amrihospitals.in/storage/rarecase/Rarecase20221202125536.jpg');
+    margin: 5px 10px 0px 10px;
+}
+.HomeMain #card4{
+    background-image: url('https://gangahospital.com/public/images/plastic/brachial-plexus-injury.jpg');
+}
+.HomeMain #card5{
+    margin: 30px 10px 0px 10px;
+    background-image: url('https://images.hindustantimes.com/img/2023/01/30/550x309/the-central-as-well-as-state-governments-are-worki_1675107004263.jpg');
+}
+
+.HomeMain #card1:hover{
+    width: 300px;
+    opacity: 10;
+}
+.HomeMain #card2:hover{
+    width: 300px;
+    opacity: 10;
+
+}
+.HomeMain #card3:hover{
+    width: 300px;
+    opacity: 10;
+
+}
+.HomeMain #card4:hover{
+    width: 300px;
+    opacity: 10;
+
+}
+.HomeMain #card5:hover{
+    width: 300px;
+    opacity: 10;
+}
+
+
+
+
+
+.HomeMain .HoverOfCard p{
+    color: white;
+    height: 70px;
+    line-height: 70px;
+    font-size: 21px;
+    font-weight: 400px;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+
+
+
+
+
+
+.HomeMain .ShineHead{
+    padding: 25px;
+}
+
+.HomeMain .ShineHead h3{
+    background:'red';
+    width:'100%';
+    height:'12px';
+    font-size:'28px';
+}
+
+.HomeMain .ShineHead h3 b{
+    background-color:'lightgrey';
+    width:'100px';
+    padding-right:'10px';
+}
+
+
+.HomeMain .shinecards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.HomeMain .card1{
+    margin: 10px;
+    min-width: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: url('https://www.apolloshinefoundation.org/wp-content/uploads/2021/08/student-card.jpg');
+    width: 350px;
+    height: 250px;
+    border: 2px solid lightblue;
+}
+.HomeMain .card2{
+    margin: 10px;
+    max-width: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: url('https://www.apolloshinefoundation.org/wp-content/uploads/2021/08/staf-card.jpg');
+    width: 350px;
+    height: 250px;
+    border: 2px solid lightblue;
+}
+.HomeMain .card3{
+    margin: 10px;
+    max-width: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: url('https://www.apolloshinefoundation.org/wp-content/uploads/2021/08/alumni-card-1.jpg');
+    width: 350px;
+    height: 250px;
+    border: 2px solid lightblue;
+}
+
+
+.HomeMain .main{
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.HomeMain .shinecards h4{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.HomeMain .main h3{
+    text-align: left;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.HomeMain .main p{
+    margin-left: 20px;
+    text-align: justify;
+    font-family: serif;
+    font-size: 18px;
+}
+
+.HomeMain .ShineHead h3{
+    background-color: red;
+    height: 15px;
+    line-height: 7px;
+    width: 100%;
+}
+
+.HomeMain .ShineHead h3 b{
+    background-color: white;
+}
+
+
+
+/* .HomeMain .footer{
+    background-color: lightgrey;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.HomeMain .footer .box1{
+    font-size: 15px;
+    text-align: justify;
+    line-height: 70px;
+    margin:0px 0px 0px 10px ;
+}
+
+.HomeMain .footer .box1{
+    display: flex;
+    justify-content: space-around;
+}
+.HomeMain .footer .box3 span{
+    padding: 0px 5px 0px 5px;
+    background-color:#404040;
+    color: lightgrey;
+    line-height: 70px;
+    margin: 0px 10px 0px 10px ;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.HomeMain .footer .box3 a{
+    text-decoration: none;
+}
+
+ */
+
+
+.HomeMain .contact{
+    margin: 20px;
+    padding-bottom: 50px;
+    background-color:rgb(168, 209, 244);
+}
+.HomeMain .contact h2{
+    line-height: 90px;
+    color: #ff0000;
+    text-align: center;
+}
+.HomeMain .innerContact{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.HomeMain .innerContact .div1{
+    margin: 5px 30px 10px 0px;
+    width: 300px;
+    padding-right: 10px;
+    color:rgb(8, 8, 112);
+    font-size: 18px;
+    font-weight:400;
+    border-right: black solid 2px;
+}
+
+.HomeMain .innerContact .div2{
+    text-align: left;
+    margin: 5px 0px 0px 0px;
+    width: 300px;
+    color:rgb(8, 8, 112);
+    font-size: 20px;
+    font-weight:400;
+}
+
+
+.HomeMain .icon{
+    margin-right: 20px;
+}
+.HomeMain .icon:hover{
+    color:royalblue;
+}
+
+
+@media (max-width:670px){
+    .HomeMain .innerContact .div1{
+        text-align: center;
+        border:none;
+    }
+    .HomeMain .innerContact .div2{
+        text-align: center;
+    }
+}
